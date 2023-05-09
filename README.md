@@ -1,1 +1,2 @@
-# ADL_Hate_Speech_Detection
+# Advance Deep Learning 
+## Hate Speech Detection
