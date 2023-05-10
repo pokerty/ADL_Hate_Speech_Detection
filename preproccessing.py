@@ -11,6 +11,11 @@ import num2words
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 
+#run one time this code if you have an ntlk error
+#then you can comment it
+#import ntlk
+#nltk.download('wordnet')
+
 def replace_url(data):
     url = re.compile(r'https?://\S+|www\.\S+')
     return url.sub(r'',str(data))
